@@ -1,0 +1,7 @@
+{
+  "name": "HireUs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

@@ -1,0 +1,180 @@
+.web-service1 p {
+    font-size: 18px;
+}
+
+.web-service2 h2 {
+    color: #174C92;
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.webservice::before {
+    content: "";
+    background: url(/assets/img/web-bg.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    width: 430px;
+    height: 705px;
+    z-index: 9;
+}
+
+.tools-logo {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #f5eeee;
+}
+
+.tools-logo img {
+    height: 60px;
+}
+
+.gis-service1 h4 {
+    color: #174C92;
+    margin: 0px;
+    font-size: 28px;
+}
+
+.web-service3 h2 {
+    color: #174C92;
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.web-service3 p {
+    font-size: 20px;
+}
+
+.webinner-service3 div {
+    padding: 10px;
+    border: 1px solid #f5eeee;
+    max-width: 270px;
+
+}
+
+.webinner-service3 p {
+    font-size: 14px;
+    width: 152px;
+    color: #174C92;
+}
+
+.web-img {
+    height: 600px;
+}
+
+.web-inner3 {
+    width: 458px;
+}
+
+.gis-bg1 {
+    background: #FFE793;
+}
+
+.pricing1 {
+    padding: 10px;
+    border-bottom: 0.5px solid;
+    text-align: center;
+}
+
+.gis-inner2 h5 {
+    font-size: 30px;
+    margin: 0px;
+}
+
+.gis-inner2 sup,
+.gis-inner2 h5 span {
+    font-size: 20px;
+}
+
+.gis-inner2 {
+    width: 178px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.gis-bg1 p {
+    font-size: 16px;
+}
+
+.hire-btn2 {
+    background: #F9CC33;
+    color: #174C92;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.hire-btn2 .mat-icon {
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+.doller-sp {
+    border: 1px solid #000;
+    border-radius: 25px;
+    font-size: 12px;
+    padding: 2px 5px;
+    margin-left: 5px;
+}
+
+.gis-bg11 {
+    background: #174C92;
+    color: #fff;
+    min-height: 263px;
+}
+
+.gis-bg1 {
+    min-height: 283px;
+}
+
+ul {
+    padding: 0px 25px;
+    margin: 0px;
+}
+
+
+
+@media (max-width: 767px) {
+    .flag-img {
+        width: 100%;
+    }
+
+    .gis-bg h4,
+    .web-service2 h2, .web-service3 h2 {
+        font-size: 24px;
+    }
+    .web-service3 p , .web-service1 p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1040px) {
+    .mbl-width {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .gis-bg h4 {
+        margin-top: 22px !important;
+    }
+
+    .mbl-width1 {
+        text-align: center;
+    }
+
+    .mbl-width1 {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1040px) {
+    .web-img {
+        height: auto;
+        object-fit: fill;
+        width: 100%;
+    }
+}

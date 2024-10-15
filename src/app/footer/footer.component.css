@@ -1,0 +1,27 @@
+.footer-div {
+    background: #174C92;
+    font-size: 16px;
+    color: #fff;
+}
+
+h5 {
+    color: #F9CC33;
+    font-size: 18px;
+}
+
+.footer-li {
+    margin-bottom: 10px;
+}
+
+.hire-btn2 {
+    background: #F9CC33;
+    font-size: 16px;
+    border: none;
+    color: #174C92;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.footer-topb {
+    border-top: 1px solid #fff;
+}

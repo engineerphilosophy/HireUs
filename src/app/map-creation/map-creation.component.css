@@ -1,0 +1,111 @@
+.mapinner-service {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.map-service p {
+    font-size: 17px;
+}
+
+.map-service h2 {
+    color: #174C92;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.map-service1 h4 {
+    color: #174C92;
+    margin: 0px;
+    font-size: 28px;
+}
+
+.map-service1 ul {
+    padding: 0px 25px;
+}
+
+.map-service1 li {
+    font-size: 18px;
+}
+
+.gis-inner span {
+    padding: 5px 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    background: #D4E2F4;
+    border-radius: 25px;
+}
+
+.map-img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.pricing1 {
+    padding: 10px;
+    border-right: 0.5px solid #0000002e;
+    text-align: center;
+    width: 160px;
+    height: 120px;
+}
+
+.gis-inner2 h5 {
+    font-size: 30px;
+    margin: 0px;
+}
+
+.gis-inner2 sup,
+.gis-inner2 h5 span {
+    font-size: 20px;
+}
+
+.gis-inner3 p {
+    font-size: 15px;
+    max-width: 335px;
+}
+
+.gis-inner {
+    max-width: 560px;
+}
+
+.doller-sp {
+    border: 1px solid #000;
+    border-radius: 25px;
+    font-size: 12px;
+    padding: 2px 5px;
+    margin-left: 5px;
+}
+
+.gis-bg1 {
+    background: #d4e2f4;
+    border-radius: 10px;
+}
+
+.hire-btn .mat-icon {
+    font-size: 20px;
+    height: 20px;
+    margin-left: 5px;
+    width: 20px;
+}
+
+.map-img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
+.map1-img,
+.border-bg2 {
+    border-radius: 0px 20px 20px 0px;
+}
+
+.map2-img,
+.border-bg1 {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.map-bg {
+    background: #eceff385;
+    padding: 30px;
+    max-height: 500px;
+}

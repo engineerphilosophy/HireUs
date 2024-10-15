@@ -1,0 +1,161 @@
+.web-service2 h2,
+.process-service2 h2 {
+    color: #174C92;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.tools-logo {
+    background: #fff;
+    padding: 10px;
+    border: 2px solid #f5eeee;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.tools-logo img {
+    height: 60px;
+    width: 60px;
+}
+
+.tools-logo span {
+    display: block;
+    margin-top: 5px;
+    color: #001F47;
+    text-align: center;
+    width: 100px;
+}
+
+.processinner-service {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.process-service2 p {
+    font-size: 17px;
+}
+
+.gis-bg1 {
+    background: #F1F6FC;
+}
+
+
+.pricing1 {
+    padding: 10px;
+    color: #174C92;
+    font-weight: 600;
+    font-size: 24px;
+    border-bottom: 0.5px solid;
+    text-align: center;
+}
+
+.gis-inner2 h5 {
+    font-size: 36px;
+    color: #174C92;
+    margin: 0px;
+}
+
+.gis-inner2 h5 sup,
+.gis-inner2 h5 span {
+    color: #000;
+}
+
+.gis-inner2 sup,
+.gis-inner2 h5 span {
+    font-size: 20px;
+}
+
+.hire-btn .mat-icon {
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+.doller-sp {
+    border: 1px solid #000;
+    border-radius: 25px;
+    font-size: 12px;
+    padding: 2px 5px;
+    margin-left: 5px;
+}
+
+.gis-inner2 {
+    width: 178px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.gis-bg1 p {
+    font-size: 16px;
+}
+
+.gis-bg2 img {
+    object-fit: fill;
+    width: 100%;
+    max-height: 302px;
+    position: relative;
+    top: 1px;
+}
+
+.gis-bg2 .img1 {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.gis-bg2 .img2 {
+    border-radius: 0px 20px 20px 0px;
+}
+
+.gis-bg2 ul {
+    padding: 0px 15px;
+    margin: 20px;
+
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+    .flag-img {
+        width: 100%;
+    }
+
+    .gis-bg h4,
+    .process-service2 h2,
+    .pricing1,
+    .web-service3 h2 {
+        font-size: 24px;
+    }
+
+    .web-service3 p,
+    .web-service1 p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1040px) {
+    .mbl-width {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .gis-bg h4 {
+        margin-top: 22px !important;
+    }
+
+    .mbl-width1 {
+        text-align: center;
+    }
+
+    .mbl-width1 {
+        margin-bottom: 10px;
+    }
+}

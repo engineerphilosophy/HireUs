@@ -1,0 +1,44 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.sp3 {
+    color: #174C92;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.sp2 {
+    height: 30px;
+    width: 2px;
+    background: #000;
+}
+
+.logo {
+    height: 42px;
+}
+
+.header-sp .mat-icon {
+    color: #174C92;
+}
+
+.header-sp span {
+    color: #000;
+    font-size: 14px;
+}
+
+mat-toolbar {
+    border-bottom: 1px solid #174c9263;
+}
+
+.logo {
+    height: 40px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  

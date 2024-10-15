@@ -1,0 +1,147 @@
+.service-div h2 {
+    color: #174C92;
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.service-div p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.service-div {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hire-btn {
+    background: #174C92;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.service1 {
+    background: #D4E2F4;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.service-1 h4 {
+    margin: 0px;
+    color: #174C92;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+img.service-img {
+    height: 170px;
+}
+
+.service-1 p {
+    font-size: 18px;
+    max-width: 295px;
+    margin: 0 auto;
+}
+
+.service-1 h6 {
+    color: #174C92;
+    font-size: 45px;
+    margin: 0px;
+}
+
+.service-2 {
+    background: #174C92;
+    font-size: 20px;
+    color: #fff;
+    padding: 12px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.service-2 span {
+    position: relative;
+    top: -3px;
+}
+
+sup {
+    color: #000;
+    font-size: 28px;
+    position: relative;
+    left: -4px;
+}
+
+.sp2 {
+    color: #000;
+    font-size: 28px;
+}
+
+.sp1 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.service-1 {
+    position: relative;
+    padding: 20px;
+    /* Adjust as needed */
+}
+
+.service-1::before {
+    content: "";
+    background: url(/assets/img/service-bg.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    right: 10px;
+    height: 253px;
+    z-index: 9;
+}
+
+.testimonial-inner {
+    background: #DEE8F5;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.align-center {
+    position: relative;
+    z-index: 99;
+}
+
+.testimonial-inner1 h4 {
+    color: #174C92;
+    margin: 0px;
+}
+
+.testimonial-inner1 p {
+    margin: 0px;
+}
+
+@media (max-width: 767px) {
+    .service-div {
+        max-width: auto;
+    }
+
+    .mr-15,.mr-20 {
+        margin-right: 0px !important;
+    }
+
+    .service-div p,
+    .service-1 p {
+        font-size: 14px;
+        padding: 0px 10px;
+    }
+
+    .service-div h2,
+    .service-1 h4 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 599px) {
+    .width-mbl {
+        width: 100%;
+    }
+}
