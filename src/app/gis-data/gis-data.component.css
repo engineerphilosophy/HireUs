@@ -40,6 +40,7 @@ ul {
 
 .gis-service1 {
     border: 1px solid #174C92;
+    padding: 0px;
     border-radius: 20px;
 }
 
@@ -88,7 +89,8 @@ ul {
         font-size: 24px;
     }
 
-    .service-div p, li,
+    .service-div p,
+    li,
     .gis-service1 p {
         font-size: 16px;
     }

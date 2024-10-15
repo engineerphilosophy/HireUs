@@ -143,10 +143,13 @@ ul {
     }
 
     .gis-bg h4,
-    .web-service2 h2, .web-service3 h2 {
+    .web-service2 h2,
+    .web-service3 h2 {
         font-size: 24px;
     }
-    .web-service3 p , .web-service1 p {
+
+    .web-service3 p,
+    .web-service1 p {
         font-size: 16px;
     }
 }
@@ -177,4 +180,11 @@ ul {
         object-fit: fill;
         width: 100%;
     }
+}
+
+.div-bg {
+    background: #174c92;
+    color: #fff;
+    width: 459px;
+
 }

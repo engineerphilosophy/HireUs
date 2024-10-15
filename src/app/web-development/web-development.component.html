@@ -1,34 +1,38 @@
 <div class="web-service">
+
     <div class="gis-bg padding30-lr">
-        <div ion-grid>
-            <ion-row>
-                <ion-col size="12" size-md="6" size-lg="6">
-                    <h4 class="">Web Development</h4>
-                    <p class="p1 mb-30 mt-10">Innovative and Scalable Web Solutions</p>
-                    <P>Book Your Free Web Development Consultancy Today!</P>
-                    <ion-button color="primary" class="hire-btn">Free Consultancy</ion-button>
-                </ion-col>
-                <ion-col size="12" size-md="6" size-lg="6">
-                    <img class="flag-img" src="assets/img/web-development.png" alt="">
-                </ion-col>
-            </ion-row>
+        <div class="wrap mbl-width d-flex flex-between">
+            <div class="mb-10 mbl-width1">
+                <h4 class="">Web Development</h4>
+                <p class="p1 mb-30 mt-10">Innovative and Scalable Web Solutions</p>
+                <P>Book Your Free Web Development Consultancy Today!</P>
+                <button color="primary" class="hire-btn">Free Consultancy</button>
+            </div>
+            <div class="mbl-width2">
+                <img class="flag-img" src="assets/img/web-development.png" alt="">
+            </div>
+        </div>
     </div>
+
+
     <div class="container mt-50 web-service1 relative">
         <ion-grid>
             <ion-row>
-                <ion-col size="12" size-md="4" size-lg="4">
+                <ion-col size="12" size-md="6" size-lg="4">
                     <img class="flag-img" src="assets/img/web-service.png" alt="">
                 </ion-col>
-                <ion-col size="12" size-md="8" size-lg="8">
-                    <ion-card>
-                        <ion-card-content>
-                            <P>Our web development process ensures innovative and scalable solutions through requirement
-                                gathering and analysis, design and approval, development and testing, and deployment and
-                                support.</P>
-                            <p>Ready to bring your vision to life?</p>
-                            <ion-button color="primary" class="hire-btn">Hire Us Today </ion-button>
-                        </ion-card-content>
-                    </ion-card>
+                <ion-col size="12" size-md="6" size-lg="8" class="d-flex flex-center">
+
+                    <div>
+                        <P>Our web development process ensures innovative and scalable solutions through
+                            requirement
+                            gathering and analysis, design and approval, development and testing, and deployment
+                            and
+                            support.</P>
+                        <p>Ready to bring your vision to life?</p>
+                        <button color="primary" class="hire-btn">Hire Us Today </button>
+                    </div>
+
                 </ion-col>
             </ion-row>
         </ion-grid>
@@ -50,9 +54,11 @@
     <div class="container mt-50 web-service3 mb-50">
         <ion-grid>
             <ion-row>
-                <ion-col size="12" size-md="6" size-lg="6">
+                <ion-col size="12" size-md="6" size-lg="6" class="d-flex flex-start">
+                  <div>
                     <h2>Our Web Development Services</h2>
-                    <p>Our web development services specialize in creating custom websites and applications tailored to your
+                    <p>Our web development services specialize in creating custom websites and applications tailored
+                        to your
                         GIS and mapping needs.</p>
                     <ion-list>
                         <ion-item *ngFor="let service of services">
@@ -60,19 +66,25 @@
                             <ion-label>{{service.name}}</ion-label>
                         </ion-item>
                     </ion-list>
+                  </div>
                 </ion-col>
-                <ion-col size="12" size-md="6" size-lg="6">
-                    <img class="web-img" src="assets/img/web-service2.png" alt="">
-                    <ion-card>
-                        <ion-card-content>
-                            <ul>
-                                <li> Design and develop custom websites tailored to your GIS and mapping needs.</li>
-                                <li>Integrate interactive maps and spatial data features seamlessly.</li>
-                                <li>Ensure responsive and user-friendly interfaces for an optimal user experience.</li>
-                            </ul>
-                            <ion-button color="primary" class="hire-btn2">Contact Us <ion-icon name="call"></ion-icon></ion-button>
-                        </ion-card-content>
-                    </ion-card>
+                <ion-col size="12" size-md="6" size-lg="6" class="d-flex flex-end">
+                    <div class="">
+                        <img class="web-img" src="assets/img/web-service2.png" alt="">
+                        <div class="div-bg padding-10 ">
+                            <div>
+                                <ul>
+                                    <li> Design and develop custom websites tailored to your GIS and mapping needs.</li>
+                                    <li>Integrate interactive maps and spatial data features seamlessly.</li>
+                                    <li>Ensure responsive and user-friendly interfaces for an optimal user experience.
+                                    </li>
+                                </ul>
+                                <div class="mt-10">
+                                    <button color="primary" class="hire-btn2">Contact Us</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </ion-col>
             </ion-row>
         </ion-grid>
